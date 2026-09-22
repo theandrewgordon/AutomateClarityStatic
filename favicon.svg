@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="AutomateClarity">
+  <rect width="64" height="64" rx="10" fill="#0c1d22"/>
+  <rect x="14" y="35" width="10" height="15" rx="1" fill="#f4f1e9"/>
+  <rect x="27" y="25" width="10" height="25" rx="1" fill="#2d68ff"/>
+  <rect x="40" y="14" width="10" height="36" rx="1" fill="#f4f1e9"/>
+</svg>
