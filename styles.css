@@ -361,3 +361,16 @@ footer {
   html { scroll-behavior: auto; }
   .btn, .card { transition: none; }
 }
+
+.support-note {
+  max-width: var(--max);
+  margin: -48px auto clamp(64px, 9vw, 110px);
+  padding: 0 24px;
+  color: var(--muted);
+  font-size: 14px;
+  text-align: center;
+}
+
+.stat strong {
+  white-space: nowrap;
+}
