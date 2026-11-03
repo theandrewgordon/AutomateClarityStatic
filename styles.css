@@ -219,3 +219,21 @@ footer {
 
 .plan li { margin-bottom: 6px; }
 .plan li::marker { color: var(--tide); }
+
+.book-button {
+  display: inline-block;
+  padding: 14px 24px;
+  border-radius: 6px;
+  background: var(--marsh);
+  color: #fff;
+  font-family: "Schibsted Grotesk", system-ui, sans-serif;
+  font-weight: 700;
+  font-size: 17px;
+  text-decoration: none;
+}
+
+.book-button:hover { background: #1a342c; color: #fff; }
+
+@media (max-width: 560px) {
+  .book-button { display: block; text-align: center; }
+}

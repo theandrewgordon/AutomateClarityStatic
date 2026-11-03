@@ -26,6 +26,8 @@
     href="https://fonts.googleapis.com/css2?family=Literata:ital,opsz,wght@0,7..72,400;0,7..72,600;1,7..72,400&family=Schibsted+Grotesk:wght@500;700;800&display=swap"
   />
   <link rel="stylesheet" href="/styles.css" />
+  <link rel="stylesheet" href="https://assets.calendly.com/assets/external/widget.css" />
+  <script src="https://assets.calendly.com/assets/external/widget.js" async></script>
 </head>
 
 <body>
@@ -81,6 +83,13 @@
     <p>
       Call or email me to set up a free 15-minute conversation about how a new request
       becomes a job for you. If it's working fine, I'll tell you so.
+    </p>
+
+    <p>
+      <a class="book-button" href="https://calendly.com/automateclarity/30min"
+         onclick="if (window.Calendly) { Calendly.initPopupWidget({ url: 'https://calendly.com/automateclarity/30min?hide_gdpr_banner=1' }); return false; }">
+        Book a free 15-minute call
+      </a>
     </p>
 
     <div class="signoff">
