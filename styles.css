@@ -198,3 +198,14 @@ footer {
   .prices td { font-size: 16px; }
   .reach { font-size: 19px; }
 }
+
+.price-line {
+  font-family: "Schibsted Grotesk", system-ui, sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.aside {
+  color: var(--muted);
+  font-style: italic;
+}
